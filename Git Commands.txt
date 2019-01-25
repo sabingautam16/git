@@ -37,6 +37,8 @@ Add New Commits to Remote Repository:               		  git push *<remote_name>*
 
 Update Remote Branches With Most Recent Commits:    		  git fetch <remote_name>
 
+Compare Local and Remote Branch					  git diff <local branch> <remote>/<remote_branch>
+
 Fetch Immediately After Adding Remote Repository:   		  git remote add -f <remote_name><url>
 
 Create Local Branch With Same Commit History As 
